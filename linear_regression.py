@@ -31,7 +31,7 @@ with tf.Session() as sess:
         if step % 20 == 0:
             print(step, cost_val, W_val, b_val)
 
-# Learns best fit W:[ 1.],  b:[ 0.]
+# Learns best fit
 """
 0 2.82329 [ 2.12867713] [-0.85235667]
 20 0.190351 [ 1.53392804] [-1.05059612]
